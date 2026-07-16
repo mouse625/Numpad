@@ -1,4 +1,4 @@
 .history/*
-_restore_backup_2026-07-02T17-41-02-065/*
+**/_restore_backup*/
 *.kicad_prl
-*.kicad_pro_lck
+*.kicad_pro.lck
