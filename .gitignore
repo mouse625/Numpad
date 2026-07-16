@@ -1,4 +1,4 @@
-.history/*
 **/_restore_backup*/
+**/.history/
 *.kicad_prl
-*.kicad_pro.lck
+*.kicad_pro_lck
