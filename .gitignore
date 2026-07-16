@@ -1,2 +1,4 @@
-.vscode/*
-.git/*
+.history/*
+_restore_backup_2026-07-02T17-41-02-065/*
+*.kicad_prl
+*.kicad_pro_lck
