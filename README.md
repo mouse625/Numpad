@@ -1,6 +1,6 @@
 # Numpad Macropad
 
->   Self-explanatory.
+>   self-explanatory.
 
 ## Description
 
@@ -19,7 +19,7 @@ This project is made possible by [Hackpad](https://www.google.com/search?q=Hackp
 ### Repository Features
 
 - KiCad design files
-    - Project Files
+    - Project files
     - Schematics
     - PCB files
 - CAD mockup
@@ -53,7 +53,7 @@ This project is made possible by [Hackpad](https://www.google.com/search?q=Hackp
 
 ### Code
 
->   not really a "rendering", but it looks cool.
+>   not an orthodox "rendering", but it looks cool.
 
 <Insert Image>
 
@@ -65,16 +65,16 @@ This project is made possible by [Hackpad](https://www.google.com/search?q=Hackp
 
 ## Contributions
 
-Do you have any suggestions, fixes, or extensions? If so, you can submit a pull request on [Github](https://github.com/MouseMouse625/Monotony/).
+Do you have any suggestions, fixes, or extensions? If so, you can submit a pull request on [Github](https://github.com/MouseMouse625/Numpad-Macropad).
 
 ## Credits
 
-The mocking text seen at the start of every level was inspired by [The World's Hardest Game](https://en.wikipedia.org/wiki/The_World%27s_Hardest_Game),and the minimalism in both the sound effects and aesthetics was inspired by [OCO](https://oco-game.com/). Small parts such as the symlinks and blurs were coded and enhanced by AI, such as [DeepSeek](https://chat.deepseek.com/).
+Credits to HCB, Stardance and Hackpad for the initiation of this project. Further thanks to various other projects also made for Hackpad which I referenced and took inspiration from.
 
 ## License
 
-This project uses the MIT License stating that the project is open source and free for anyone to use or develop. For more info, navigate to the [LICENSE.md](https://github.com/MouseMouse625/Monotony/blob/main/LICENSE.md) file.
+This project uses the MIT License stating that the project is open source and free for anyone to use or develop. For more info, navigate to the [LICENSE.md](https://github.com/MouseMouse625/Numpad-Macropad/blob/main/LICENSE.md) file.
 
 ---
 
-Copyright © 2025 Monotony
+Copyright © 2025 Numpad-Macropad
