@@ -1,161 +1,67 @@
-# Monotony
+# Numpad Macropad
 
->   Platformers are supposed to have varied level styles, dynamic movement, and creative approaches to the same, core idea. Right?
+>   Self-explanatory.
 
 ## Description
 
-Monotony is a 2D platformer aiming to provide a repetitive, hardcore platformer with a high-risk playstyle. Unlike most traditional platformers, with creative, diverse levels, Monotony follows a linear, predictable pattern designed to frustrate the player.
+Numpad Macropad is a [Macropad](https://www.google.com/search?q=Macropad), a custom sort of mini-keyboard usually designed for faster inputting of hardcoded shortcuts/strings or specific functions. However, this macropad is made as a [Numpad](https://www.google.com/search?q=Numpad) accessory for inputting an assortment of [Unicode](https://www.google.com/search?q=Unicode) characters.
 
-Made with Processing 4.4, an open-source programming language forked from Java. Processing's main purpose is to provide simple visual integration and graphics libraries designed for visual games and GUI.
+This project is made possible by [Hackpad](https://www.google.com/search?q=Hackpad+for+Hack+Club), a YSWS (you ship we ship) event on making a custom Macropad run by [Hack Club](https://www.google.com/search?q=Hack+Club).
 
 ## Features
 
-- Simplistic movement controls
-- An easy to learn, hard to master playstyle
-- Repetitive level design
-- Minimalist GUI
-- Custom cursors
-- Easy navigation
-- Built-in themes
+### Physical Features
 
-## Installation
+- 10 keys numbered 0 through 9
+- 3D printed case
+- Custom PCB in a [Sandwich Mount](https://www.google.com/search?q=Sandwich+Mount)
 
-### Processing
+### Repository Features
 
-1.  Navigate to the Releases Page
-    -   Navigate to the [Releases](https://github.com/MouseMouse625/Monotony/releases) section of this repository.
+- KiCad design files
+    - Project Files
+    - Schematics
+    - PCB files
+- CAD mockup
+    - PCB
+        - Components
+            - Keyswitches
+            - Diodes
+            - XIAO
+        - The actual PCB
+    - Case
+        - Main body
+        - Top plate
+    - Cable (useful for an appropriate opening for power)
+- QMK firmware
 
-2.  Select the Latest Release
-    -   Navigate to the latest release (e.g. v1.0.0).
+## Renderings
 
-3.  Download the Correct File for Your OS
-    -   In the `Assets` section of the release, download the corresponding file for your operating system by clicking it:
-        -   Windows: `binaryWindows64.zip`
-        -   Linux: `binaryLinux64.zip`
+>   we all know you love them.
 
-4.  Extract the ZIP File
-    -   Locate the downloaded ZIP file, probably in the downloads folder, and extract its contents. You can usually do this by right-clicking the file and selecting `Extract All` or using a tool like 7-Zip.
+### PCB schematics
 
-5.  Run the Game
-    -   Locate and open the newly extracted folder.
-    -   Open the nested folder of the same name.
-    -   Run the game's executable file:
-        -   Windows: Double-click `processingPlatformerSketch.exe`
-        -   Linux: Run the `processingPlatformerSketch.x86_64` file. You may first need to make it executable using a command like `chmod +x processingPlatformerSketch.x86_64`.
+<Insert Image>
 
-    >   Note for Windows Users: Windows might show a "Windows protected your PC" warning. If you see this, click "More info" and then "Run anyway" to launch the game.
+### PCB design files
 
-### VSCode
+<Insert Image>
 
-1. Install Visual Studio Code
-    -   Download and install VSCode from the [official website](https://code.visualstudio.com/).
+### 3D mockup
 
-2. Install Processing
-    -   Download and install Processing 4.3.4 from the [official repository](https://github.com/processing/processing4/releases).
+<Insert Image>
 
-        >   This is due to Processing 4.4+ not having the processing-java.exe file, and the extension hasn't been updated yet.
-    -   Important: After installation, run the Processing IDE (PDE) at least once to complete its initial setup.
+### Code
 
-3. Install the Processing Extension in VSCode
-    -   Open VSCode.
-    -   Go to the Extensions view.
-        -   Press `Ctrl+Shift+X` for Windows.
-        -   Press `Cmd+Shift+X` for MacOS.
-    -    Search for and install the `Processing Language` extension by Avin Zarlez
+>   not really a "rendering", but it looks cool.
 
-4. Add the Sound Library in Processing
-    -   Open the Processing IDE
-    -   Go to `Sketch` > `Import Library` > `Add Library`
-    -   In the Library Manager, search for `Sound` and click `Install`
+<Insert Image>
 
-5. Clone the Repository
-    -   Clone this repository to your local machine, including all hidden files
-   ```bash
-   git clone https://github.com/MouseMouse625/Monotony
-   ```
+### Photos
 
-6. Open the Project in VSCode
-    -   Open the cloned project folder in VSCode using `File` > `Open Folder` and selecting the correct folder.
+>   DEFINITELY not a rendering.
 
-7. Configure the Build Tasks
-    -   In the root of your project, create a `.vscode` folder if it doesn't exist.
-    -   Inside the `.vscode` folder, create a file named `tasks.json`.
-    -   Copy and paste the following JSON configuration into `tasks.json`:
-    ```json
-    {
-        "version": "2.0.0",
-        "tasks": [
-            {
-                "label": "Run Blur Creation",
-                "type": "shell",
-                "command": "C:\\Program Files\\Processing\\processing-4.3\\processing-java.exe",
-                "args": [
-                    "--sketch=${workspaceFolder}/source/blurs",
-                    "--run",
-                ],
-                "problemMatcher": []
-            },
-            {
-                "label": "Run Symlink Setup",
-                "type": "shell",
-                "command": "C:\\Program Files\\Processing\\processing-4.3\\processing-java.exe",
-                "args": [
-                    "--sketch=${workspaceFolder}/source/symlinks",
-                    "--run",
-                ],
-                "problemMatcher": []
-            },
-            {
-                "label": "Run Main Sketch",
-                "type": "shell",
-                "command": "C:\\Program Files\\Processing\\processing-4.3\\processing-java.exe",
-                "args": [
-                    "--sketch=${workspaceFolder}/source/main",
-                    "--run",
-                ],
-                "problemMatcher": []
-            }
-        ]
-    }
-    ```
-
-    >   Modify the `"command"` paths in the `tasks.json` file to match the actual installation directories of `java.exe` on your computer, if you have opted for a custom installation.
-
-8. Running the Game
-    -   With the `tasks.json` file configured, you need to run the setup tasks.
-        -   Press `Ctrl+Shift+P` on Windows
-        -   Press `Cmd+Shift+P` on MacOS
-    -   After opening the `Command Palette`, type `Run Task`, then press `Enter`.
-    -   Run the following configured tasks in this order:
-        -   `Run Symlink Setup`
-
-            >   Wait for the window to close
-
-            >   Note: the symlinks might fail, and if this happens, make sure to run VSCode as administrator to ensure the authority of creating them
-
-        -   `Run Blur Creation`
-
-            >   Wait for the window to close
-
-        -   `Run Main Sketch`
-
-            >   This is the command that runs the game
-            
-    -   From now on, only the last command is required to run the game
-
-### Comparision
-
-VSCode Version
--   Hard to setup
--   Better anti-alising as it detects app scaling
--   More optimised (less lag)
--   Uses a slightly outdated version of Processing
-
-Processing Version
--   Easy to setup
--   Worse anti-aliasing due to not detecting the app scaling
--   Less optimised due to the native IDE not being the best (more lag)
--   Uses the most recent version of Processing
+<Insert Image>
 
 ## Contributions
 
