@@ -65,7 +65,7 @@ This project is made possible by [Hackpad](https://www.google.com/search?q=Hackp
 
 ## Contributions
 
-Do you have any suggestions, fixes, or extensions? If so, you can submit a pull request on [Github](https://github.com/MouseMouse625/Numpad-Macropad).
+Do you have any suggestions, fixes, or extensions? If so, you can submit a pull request on this [Repository](https://github.com/MouseMouse625/Numpad-Macropad).
 
 ## Credits
 
