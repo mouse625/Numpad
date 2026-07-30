@@ -39,29 +39,39 @@ This project is made possible by [Hackpad](https://www.google.com/search?q=Hackp
 
 >   we all know you love them.
 
-### PCB schematics
+### PCB
 
-<Insert Image>
+![PCB Schematics](assets/renderings/pcb/pcb_schematics.png)
 
-### PCB design files
+![PCB Layout](assets/renderings/pcb/pcb_layout.png)
 
-<Insert Image>
+![3D PCB](assets/renderings/pcb/pcb_3d.png)      
 
-### 3D mockup
+### CAD
 
-<Insert Image>
+![Visualised CAD](assets/renderings/cad/cad_visualised.png)
+
+![Shaded CAD](assets/renderings/cad/cad_shaded.png)
+
+![Wireframe CAD](assets/renderings/cad/cad_wireframe.png)
+
+![X-Ray CAD](assets/renderings/cad/cad_xray.png)
+
+![Close-Up X-Ray CAD](assets/renderings/cad/cad_close_xray.png)
 
 ### Code
 
->   not an orthodox "rendering", but it looks cool.
+>   not orthodox "renderings", but they look cool.
 
-<Insert Image>
+![keyboard.json file](assets/renderings/firmware/keyboard_json.png)
+
+![keymap.c file](assets/renderings/firmware/keymap_c.png)
 
 ### Photos
 
->   DEFINITELY not a rendering.
+>   DEFINITELY not renderings.
 
-<Insert Image>
+<Insert Images>
 
 ## Contributions
 
