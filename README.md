@@ -1,10 +1,10 @@
-# Numpad Macropad
+# Numpad
 
 >   self-explanatory.
 
 ## Description
 
-Numpad Macropad is a [Macropad](https://www.google.com/search?q=Macropad), a custom sort of mini-keyboard usually designed for faster inputting of hardcoded shortcuts/strings or specific functions. However, this macropad is made as a [Numpad](https://www.google.com/search?q=Numpad) accessory for inputting an assortment of [Unicode](https://www.google.com/search?q=Unicode) characters.
+Numpad is a [Macropad](https://www.google.com/search?q=Macropad), a custom sort of mini-keyboard usually designed for faster inputting of hardcoded shortcuts/strings or specific functions. However, this macropad is made as a [Numpad](https://www.google.com/search?q=Numpad) accessory for inputting an assortment of [Unicode](https://www.google.com/search?q=Unicode) characters.
 
 This project is made possible by [Hackpad](https://www.google.com/search?q=Hackpad+for+Hack+Club), a YSWS (you ship we ship) event on making a custom Macropad run by [Hack Club](https://www.google.com/search?q=Hack+Club).
 
@@ -65,7 +65,7 @@ This project is made possible by [Hackpad](https://www.google.com/search?q=Hackp
 
 ## Contributions
 
-Do you have any suggestions, fixes, or extensions? If so, you can submit a pull request on this [Repository](https://github.com/MouseMouse625/Numpad-Macropad).
+Do you have any suggestions, fixes, or extensions? If so, you can submit a pull request on this [Repository](https://github.com/MouseMouse625/Numpad).
 
 ## Credits
 
@@ -73,8 +73,8 @@ Credits to HCB, Stardance and Hackpad for the initiation of this project. Furthe
 
 ## License
 
-This project uses the MIT License stating that the project is open source and free for anyone to use or develop. For more info, navigate to the [LICENSE.md](https://github.com/MouseMouse625/Numpad-Macropad/blob/main/LICENSE.md) file.
+This project uses the MIT License stating that the project is open source and free for anyone to use or develop. For more info, navigate to the [LICENSE.md](https://github.com/MouseMouse625/Numpad/blob/main/LICENSE.md) file.
 
 ---
 
-Copyright © 2025 Numpad-Macropad
+Copyright © 2025 Numpad
