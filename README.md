@@ -57,6 +57,11 @@ This project is made possible by [Hackpad](https://www.google.com/search?q=Hackp
 
 >   we all know you love them.
 
+<details>
+  <summary></summary>
+  Hidden in the code of this document (right below this details tag) is an AI-generated (yes, I know) image row alignment guide so I don't forget how to...align images. I could've just put it here, but I didn't 
+</details>
+
 <!--
 # Image Row Alignment Guide
 
@@ -138,6 +143,9 @@ $$P_i = \left( \frac{R_i}{\mathcal{S}} \right) \times 100 = \left( \frac{\frac{W
 - 1x tool for clipping pins (either/or)
     - 1x (optional) pair of `Wirecutters`
     - 1x (optional) pair of `Scissors`
+- 1x tool for screwing the...screws during assembly (either/or)
+    - 1x (optional) hex-head `Screwdriver`
+    - 1x (optional) `hex key` preferable without an obligatory hex
 - 1x `Flashing Setup` for...flashing
     - 1x USB-C `Cable` (for power too)
     - 1x functioning `Computer`
@@ -152,7 +160,30 @@ $$P_i = \left( \frac{R_i}{\mathcal{S}} \right) \times 100 = \left( \frac{\frac{W
 
 ### Instructions
 
-// help me
+1. After receiving your parts, including the `PCB`, `components` and `case`, you'll need to have/obtain access to a `soldering iron` and some `solder`, a pair of `wire cutters` or `scissors`, a functioning `computer` and a **USB-C** `cable`.
+
+2. First and foremorest, the **firmware** needs to be loaded onto the `XIAO`.
+    a. This is done by plugging in the USB-C `cable` onto the `XIAO`'s **port**.
+    b. The physical **boot button** on the `XIAO` can then be **held** and the other side of the `cable` can then be plugged into the `computer` to enter **bootloader mode**.
+    c. The `XIAO` should appear as a **removeable flash drive** which the **.uf2 compiled firmware** can be **drag and dropped** into.
+    d. The `XIAO` can safely be unplugged and is ready to solder.
+
+3. The first thing to solder are your `diodes`.
+    a. Align the **stripes** on each one of the `diodes` with the **stripes** on the `PCB` indicating the direction of the `diodes`.
+    b. The `diodes` can then simply be soldered onto the `PCB` with the `soldering iron` while slowly feeding `solder`.
+    c. Lastly, the **legs** need to be snipped off with the `wire cutters` or `scissors` (this is highly recommended).
+
+4. The next step is to solder your flashed `XIAO` onto the `PCB`'s **underside**. This should be constantly cross-referenced with the **CAD model** to avoid any desoldering.
+
+5. After this, the `keyswitches` need to be installed.
+    a. BEFORE any soldering takes place, they need to be clipped onto the `PCB`. The `case plate` is REQUIRED to be in **between** the `keyswitches` and the `PCB` during this step.
+    b. In succession of the previous substep, the `keyswitches` can now safely be soldered.
+
+6. The `case plate` and `main body` can now be aligned with the `PCB` (sandwiched in the middle). A `hex key` or **hex-head** `screwdriver` can then be used to screw 4 **M3x16mm** `screws` into their respective locations.
+
+7. Lastly, the `keycaps` can then be popped into place on your newly-assembled `numpad` (sadly, it doesn't work magically, so it wasn't really "lastly").
+
+8. The USB-C cable can now be plugged into the `numpad` and your `computer` which acts as **power**.
 
 ## Contributions
 
@@ -174,11 +205,11 @@ Credits to:
     - `zim.cad-1` for their models of the blank white DSA Keycaps
 - `McMaster-Carr` for their huge library of various models, most importantly the M3x16 screws
 - `Shapr3D`, `VSCode` and `KiCad` for making the CAD section of all of this possible
-- `Google` for acting as a universal search engine for all of my dumb querie
+- `Google` for acting as a universal search engine for all of my dumb queries
 
 ## License
 
-This project uses the MIT License stating that the project is open source and free for anyone to use or develop. For more info, navigate to the [LICENSE.md](https://github.com/MouseMouse625/Numpad/blob/main/LICENSE.md) file.
+This project uses the MIT License stating that the project is open source and free for anyone to use or develop. For more info, navigate to the [LICENSE.md](LICENSE.md) file.
 
 ---
 
