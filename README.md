@@ -20,22 +20,38 @@ This project is made possible by [Hackpad](https://www.google.com/search?q=Hackp
 
 ### Repository Features
 
-- KiCad design files
-    - Project files
-    - Schematics
-    - PCB files
-- CAD mockup
-    - PCB
-        - Components
-            - Keyswitches
-            - Diodes
-            - XIAO
-        - The actual PCB
-    - Case
-        - Main body
-        - Top plate
-    - Cable (useful for an appropriate opening for power)
-- QMK firmware
+- assets
+    - models
+    - renderings
+- source files
+    - kicad design files
+        - project file
+        - schematics
+        - layouts
+    - cad mockup
+        - pcb
+            - components
+                - keyswitches
+                - keycaps
+                - diodes
+                - xiao
+            - the actual pcb
+        - case
+            - main body
+            - top plate
+        - cable (useful for designing an appropriate opening for power)
+    - qmk firmware
+        - keyboard.json
+        - keymap.c
+- production
+    - cad
+        - case
+            - bottom section
+            - top section
+    - firmware
+        - compiled uf2 file
+    - pcb
+        - compressed folder of the gerbers
 
 ## Renderings
 
