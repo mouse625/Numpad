@@ -141,49 +141,53 @@ $$P_i = \left( \frac{R_i}{\mathcal{S}} \right) \times 100 = \left( \frac{\frac{W
 - 1x `Soldering Iron`
 - 1x roll of (with a decent amount left) `Solder`
 - 1x tool for clipping pins (either/or)
-    - 1x (optional) pair of `Wirecutters`
-    - 1x (optional) pair of `Scissors`
+  - 1x (optional) pair of `Wirecutters`
+  - 1x (optional) pair of `Scissors`
 - 1x tool for screwing the...screws during assembly (either/or)
-    - 1x (optional) hex-head `Screwdriver`
-    - 1x (optional) `hex key` preferable without an obligatory hex
+  - 1x (optional) hex-head `Screwdriver`
+  - 1x (optional) `hex key` preferable without an obligatory hex
 - 1x `Flashing Setup` for...flashing
-    - 1x USB-C `Cable` (for power too)
-    - 1x functioning `Computer`
-- 1x (optional) functioning `3D Printer` 
+  - 1x USB-C `Cable` (for power too)
+  - 1x functioning `Computer`
+- 1x (optional) functioning `3D Printer`
 - 1x (optional) full-fledged `Factory` for making PCBs
-    - 1x `CNC Router`
-    - 1x `Laser Plotter`
-    - 1x `Chemical Etcher`
-    - 1x `Plating System`
-    - 1x `Silkscreen Printer`
+  - 1x `CNC Router`
+  - 1x `Laser Plotter`
+  - 1x `Chemical Etcher`
+  - 1x `Plating System`
+  - 1x `Silkscreen Printer`
 - 1x functioning [`Encephalon`](https://www.google.com/search?q=Encephalon)
 
 ### Instructions
 
-1. After receiving your parts, including the `PCB`, `components` and `case`, you'll need to have/obtain access to a `soldering iron` and some `solder`, a pair of `wire cutters` or `scissors`, a functioning `computer` and a **USB-C** `cable`.
-
-2. First and foremorest, the **firmware** needs to be loaded onto the `XIAO`.
-    a. This is done by plugging in the USB-C `cable` onto the `XIAO`'s **port**.
-    b. The physical **boot button** on the `XIAO` can then be **held** and the other side of the `cable` can then be plugged into the `computer` to enter **bootloader mode**.
-    c. The `XIAO` should appear as a **removeable flash drive** which the **.uf2 compiled firmware** can be **drag and dropped** into.
-    d. The `XIAO` can safely be unplugged and is ready to solder.
-
-3. The first thing to solder are your `diodes`.
-    a. Align the **stripes** on each one of the `diodes` with the **stripes** on the `PCB` indicating the direction of the `diodes`.
-    b. The `diodes` can then simply be soldered onto the `PCB` with the `soldering iron` while slowly feeding `solder`.
-    c. Lastly, the **legs** need to be snipped off with the `wire cutters` or `scissors` (this is highly recommended).
-
-4. The next step is to solder your flashed `XIAO` onto the `PCB`'s **underside**. This should be constantly cross-referenced with the **CAD model** to avoid any desoldering.
-
-5. After this, the `keyswitches` need to be installed.
-    a. BEFORE any soldering takes place, they need to be clipped onto the `PCB`. The `case plate` is REQUIRED to be in **between** the `keyswitches` and the `PCB` during this step.
-    b. In succession of the previous substep, the `keyswitches` can now safely be soldered.
-
-6. The `case plate` and `main body` can now be aligned with the `PCB` (sandwiched in the middle). A `hex key` or **hex-head** `screwdriver` can then be used to screw 4 **M3x16mm** `screws` into their respective locations.
-
-7. Lastly, the `keycaps` can then be popped into place on your newly-assembled `numpad` (sadly, it doesn't work magically, so it wasn't really "lastly").
-
-8. The USB-C cable can now be plugged into the `numpad` and your `computer` which acts as **power**.
+<ol>
+  <li>After receiving your parts, including the <code>PCB</code>, <code>components</code> and <code>case</code>, you'll need to have/obtain access to a <code>soldering iron</code> and some <code>solder</code>, a pair of <code>wire cutters</code> or <code>scissors</code>, a functioning <code>computer</code> and a <strong>USB-C</strong> <code>cable</code>.</li>
+  <li><p></p>First and foremost, the <strong>firmware</strong> needs to be loaded onto the <code>XIAO</code>.
+    <ol type="a">
+      <li>This is done by plugging the USB-C <code>cable</code> into the <code>XIAO</code>'s <strong>port</strong>.</li>
+      <li>The physical <strong>boot button</strong> on the <code>XIAO</code> can then be <strong>held</strong> while plugging the other side of the <code>cable</code> into the <code>computer</code> to enter <strong>bootloader mode</strong>.</li>
+      <li>The <code>XIAO</code> should appear as a <strong>removable flash drive</strong> into which the <strong>.uf2 compiled firmware</strong> can be <strong>dragged and dropped</strong>.</li>
+      <li>The <code>XIAO</code> can safely be unplugged and is ready to solder.</li>
+    </ol>
+  </li>
+  <li><p></p>The first things to solder are your <code>diodes</code>.
+    <ol type="a">
+      <li>Align the <strong>stripes</strong> on each one of the <code>diodes</code> with the <strong>stripes</strong> on the <code>PCB</code> indicating the direction of the <code>diodes</code>.</li>
+      <li>The <code>diodes</code> can then simply be soldered onto the <code>PCB</code> with the <code>soldering iron</code> while slowly feeding <code>solder</code>.</li>
+      <li>Lastly, the <strong>legs</strong> need to be snipped off with the <code>wire cutters</code> or <code>scissors</code> (this is highly recommended).</li>
+    </ol>
+  </li>
+  <li><p></p>The next step is to solder your flashed <code>XIAO</code> onto the <code>PCB</code>'s <strong>underside</strong>. This should be constantly cross-referenced with the <strong>CAD model</strong> to avoid any desoldering.</li>
+  <li><p></p>After this, the <code>keyswitches</code> need to be installed.
+    <ol type="a">
+      <li>BEFORE any soldering takes place, they need to be clipped onto the <code>PCB</code>. The <code>case plate</code> is REQUIRED to be <strong>between</strong> the <code>keyswitches</code> and the <code>PCB</code> during this step.</li>
+      <li>Following the previous substep, the <code>keyswitches</code> can now safely be soldered.</li>
+    </ol>
+  </li>
+  <li><p></p>The <code>case plate</code> and <code>main body</code> can now be aligned with the <code>PCB</code> (sandwiched in the middle). A <code>hex key</code> or <strong>hex-head</strong> <code>screwdriver</code> can then be used to screw 4 <strong>M3x16mm</strong> <code>screws</code> into their respective locations.</li>
+  <li><p></p>Lastly, the <code>keycaps</code> can then be popped into place on your newly-assembled <code>numpad</code> (sadly, it doesn't work magically, so it wasn't really "lastly").</li>
+  <li><p></p>The USB-C cable can now be plugged into the <code>numpad</code> and your <code>computer</code>, which acts as <strong>power</strong>.</li>
+</ol>
 
 ## Contributions
 
