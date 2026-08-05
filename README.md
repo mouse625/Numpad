@@ -196,20 +196,20 @@ Do you have any suggestions, fixes, or extensions? If so, you can submit a pull 
 ## Credits
 
 Credits to:
-- `HCB` for hosting this whole thing
-    - `Stardance` for running an actual summer event
-        - `Hackpad` for inspiration on this specific project
-            - `mani` for their schematics made for Spacepad as a reference on [Matrix Wiring](https://www.google.com/search?q=Matrix+Wiring)
-            - `codecraft07` for making Stream Deck act as a reference for finding the correct DSA keycap models (turns out it was in the parts list that I wrote, so...yeah)
-            - `cheyao` for creating the guides
-- `GrabCAD` for their open-source CAD models of various parts
-    - `kevin.yu-7` for their models of the Cherry MX Keyswitches
-    - `mirac.gulgonul-1` for their model of the Seeed Studio XIAO RP2040
-    - `chris.barnado-1` for their model of the flexed USB-C Cable
-    - `zim.cad-1` for their models of the blank white DSA Keycaps
-- `McMaster-Carr` for their huge library of various models, most importantly the M3x16 screws
-- `Shapr3D`, `VSCode` and `KiCad` for making the CAD section of all of this possible
-- `Google` for acting as a universal search engine for all of my dumb queries
+- [`HCB`](https://hackclub.com) for hosting this whole thing
+    - [`Stardance`](https://stardance.hackclub.com) for running an actual summer event
+        - [`Hackpad`](https://hackpad.hackclub.com) for inspiration on this specific project
+            - [`0xmanidev`](https://github.com/0xmanidev) for their schematics made for Spacepad as a reference on [Matrix Wiring](https://www.google.com/search?q=Matrix+Wiring)
+            - [`CodeCraftPlugin`](https://github.com/CodeCraftPlugin) for making Stream Deck act as a reference for finding the correct DSA keycap models (turns out it was in the parts list that I wrote, so...yeah)
+            - [`cheyao`](https://github.com/cheyao) for creating the guides
+- [`GrabCAD`](https://grabcad.com) for their open-source CAD models of various parts
+    - [`kevin.yu-7`](https://grabcad.com/kevin.yu-7) for their models of the Cherry MX Keyswitches
+    - [`mirac.gulgonul-1`](https://grabcad.com/mirac.gulgonul-1) for their model of the Seeed Studio XIAO RP2040
+    - [`chris.barnado-1`](https://grabcad.com/chris.barnado-1) for their model of the flexed USB-C Cable
+    - [`zim.cad-1`](https://grabcad.com/zim.cad-1) for their models of the blank white DSA Keycaps
+- [`McMaster-Carr`](https://www.mcmaster.com) for their huge library of various models, most importantly the M3x16 screws
+- [`Shapr3D`](https://www.shapr3d.com), [`VSCode`](https://code.visualstudio.com) and [`KiCad`](https://www.kicad.org) for making the CAD section of all of this possible
+- [`Google`](https://www.google.com) for acting as a universal search engine for all of my dumb queries
 
 ## License
 
