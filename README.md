@@ -136,7 +136,7 @@ $$P_i = \left( \frac{R_i}{\mathcal{S}} \right) \times 100 = \left( \frac{\frac{W
     - 1x 3D-printed `Bottom Section`
     - 1x 3D-printed `Top Section`
 
->   the tools.
+>   the tools (not really part of the BoM but whatever).
 
 - 1x `Soldering Iron`
 - 1x roll of (with a decent amount left) `Solder`
