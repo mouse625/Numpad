@@ -59,7 +59,7 @@ This project is made possible by [Hackpad](https://www.google.com/search?q=Hackp
 
 <details>
   <summary></summary>
-  Hidden in the code of this document (right below this details tag) is an AI-generated (yes, I know) image row alignment guide so I don't forget how to...align images. I could've just put it here, but I didn't 
+  hidden in the code of this document (right below this details tag) is an AI-generated (yes, I know) image row alignment guide so I don't forget how to...align images.
 </details>
 
 <!--
