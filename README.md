@@ -94,7 +94,7 @@ $$P_i = \left( \frac{R_i}{\mathcal{S}} \right) \times 100 = \left( \frac{\frac{W
 ```html
 <p align="center">
   <img src="ROW1_PATH_1" alt="ALT" width="P_1.1%" align="top" /><img src="ROW1_PATH_2" alt="ALT" width="P_1.2%" align="top" />
-  <br style="line-height: 5px;" />
+  <br>
   <img src="ROW2_PATH_1" alt="ALT" width="P_2.1%" align="top" /><img src="ROW2_PATH_2" alt="ALT" width="P_2.2%" align="top" /><img src="ROW2_PATH_3" alt="ALT" width="P_2.3%" align="top" />
 </p>
 ```
@@ -110,7 +110,7 @@ $$P_i = \left( \frac{R_i}{\mathcal{S}} \right) \times 100 = \left( \frac{\frac{W
 
 <p align="center">
   <img src="assets/renderings/cad/cad_assembly.png" alt="Assembly CAD" width="55.69%" align="top"/><img src="assets/renderings/cad/cad_xray.png" alt="X-Ray CAD" width="44.31%" align="top"/>
-  <br style="line-height: 5px;"/>
+  <br>
   <img src="assets/renderings/cad/cad_visualised.png" alt="Visualised CAD" width="39.75%" align="top"/><img src="assets/renderings/cad/cad_shaded.png" alt="Shaded CAD" width="30.03%" align="top"/><img src="assets/renderings/cad/cad_wireframe.png" alt="Wireframe CAD" width="30.22%" align="top"/>
 </p>
 
