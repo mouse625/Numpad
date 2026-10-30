@@ -6,7 +6,7 @@
 
 ## Description
 
-Numpad is a [Macropad](https://www.google.com/search?q=Macropad), a custom sort of mini-keyboard usually designed for faster inputting of hardcoded shortcuts/strings or specific functions. However, this macropad is made as a [Numpad](https://www.google.com/search?q=Numpad) accessory for inputting an assortment of [Unicode](https://www.google.com/search?q=Unicode) characters.
+Numpad is a [Macropad](https://www.google.com/search?q=Macropad), a custom sort of mini-keyboard usually designed for faster inputting of hardcoded shortcuts/strings or specific functions. However, this macropad is made as a [Numpad](https://www.google.com/search?q=Numpad) accessory for more efficient inputting of numbers.
 
 This project is made possible by [Hackpad](https://www.google.com/search?q=Hackpad+for+Hack+Club), a YSWS (you ship we ship) event on making a custom Macropad run by [Hack Club](https://www.google.com/search?q=Hack+Club).
 
@@ -48,6 +48,7 @@ This project is made possible by [Hackpad](https://www.google.com/search?q=Hackp
         - case
             - bottom section
             - top section
+            - new top section (made in a pinch for easier installing)
     - firmware
         - compiled uf2 file
     - pcb
