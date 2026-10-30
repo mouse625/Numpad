@@ -119,7 +119,7 @@ $$P_i = \left( \frac{R_i}{\mathcal{S}} \right) \times 100 = \left( \frac{\frac{W
 
 >   not exactly orthodox "renderings".
 
-// Images of the finished product
+<p align="center"><img src="assets/renderings/macropad/numpad_assembled.png" alt="Assembled Numpad" width="50.41%" align="top"/><img src="assets/renderings/macropad/numpad_disassembled.png" alt="Disassembled Numpad" width="49.59%" align="top"/></p>
 
 ## Assembly
 
